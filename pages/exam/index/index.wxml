@@ -1,0 +1,32 @@
+<view class="page">
+  <view class="page__hd">
+    <view class="page__title">在线答题</view>
+    <view class="page__desc">
+     <view>1.考试时间30分钟</view>
+     <view>2.考试题目类型为单选题</view>
+     <view>3.使用微信登录，并修改考生考号</view>
+    </view>
+  </view>
+  <view class="page__bd page__bd_spacing">
+    <view class="kind-list">
+      <block wx:for="{{list}}" wx:key="id">
+        <view class="kind-list__item">
+          <view id="{{item.id}}" class="weui-flex kind-list__item-hd {{item.open ? 'kind-list__item-hd_show' : ''}}" bindtap="kindToggle">
+            <view class="weui-flex__item">{{item.name}}</view>
+            <!-- <image class="kind-list__img" src="images/icon_nav_{{item.id}}.png"></image> -->
+          </view>
+          <view class="kind-list__item-bd {{item.open ? 'kind-list__item-bd_show' : ''}}">
+            <view class="weui-cells {{item.open ? 'weui-cells_show' : ''}}">
+              <block wx:for="{{item.pages}}" wx:for-item="page" wx:key="*this" bindtap="exam"  >
+                <navigator url="/pages/exam/exam" class="weui-cell weui-cell_access">
+                  <view class="weui-cell__bd">{{page}}</view>
+                  <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+                </navigator>
+              </block>
+            </view>
+          </view>
+        </view>
+      </block>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,20 @@
+<view class="page">
+    <view class="page__hd">
+        <view class="page__title">解析</view>
+        <view class="page__desc">语文解析</view>
+    </view>
+    <view class="page__bd">
+        <view class="weui-article">
+            <view class="weui-article__h1">语文</view>
+            <view class="weui-article__section">
+                <view class="weui-article__title">锄禾日当午的下一句是什么？</view>
+                <view class="weui-article__section">
+                    <view class="weui-article__h3">答案</view>
+                    <view class="weui-article__p">
+                    真确答案是：汗滴禾下土。
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

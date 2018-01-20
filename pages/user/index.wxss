@@ -1,0 +1,20 @@
+/* pages/user/index.wxss */
+.nav{
+  background-color: black ; 
+  color: white;
+  text-align: center;
+}
+.nab{
+  height: 80rpx;
+  line-height: 80rpx;
+}
+.bcd{
+  height: 100rpx;
+  
+}
+.abc{
+line-height: 100rpx;
+}
+.ghj{
+  border-bottom: 1px solid #D9D9D9;
+}

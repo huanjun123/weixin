@@ -1,0 +1,5 @@
+/* pages/exam/exam.wxss */
+.time{
+  font-size: 36rpx;
+  text-align: center;
+}

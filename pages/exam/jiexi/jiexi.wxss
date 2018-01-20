@@ -1,0 +1,4 @@
+/* pages/exam/jiexi/jiexi.wxss */
+.weui-form-preview__ft{
+  border-bottom: 1rpx solid #999;
+}

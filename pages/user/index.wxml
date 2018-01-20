@@ -1,0 +1,68 @@
+
+<view class='nav'>
+  <view class='nab'>我</view>
+</view>
+
+<view class="weui-cells">
+  <navigator class="placeholder ">
+    <view class="weui-cell bcd">
+      <view class="weui-cell__hd">
+        <view class="weui-label abc">用户</view>
+      </view>
+    </view>
+  </navigator>
+</view>
+
+<view class="weui-cells">
+  <navigator class="placeholder">
+    <view class="weui-cell">
+      <view class="weui-cell__hd">
+        <view class="weui-label">钱包</view>
+      </view>
+    </view>
+  </navigator>
+</view>
+
+<view class="weui-cells">
+  <navigator class="placeholder">
+    <view class="weui-cell ghj">
+      <view class="weui-cell__hd">
+        <view class="weui-label">收藏</view>
+      </view>
+    </view>
+  </navigator>
+
+  <navigator class="placeholder">
+    <view class="weui-cell ghj">
+      <view class="weui-cell__hd">
+        <view class="weui-label">相册</view>
+      </view>
+    </view>
+  </navigator>
+  
+    <navigator class="placeholder">
+    <view class="weui-cell ghj">
+      <view class="weui-cell__hd">
+        <view class="weui-label">卡包</view>
+      </view>
+    </view>
+  </navigator>
+
+    <navigator class="placeholder">
+    <view class="weui-cell">
+      <view class="weui-cell__hd">
+        <view class="weui-label">表情</view>
+      </view>
+    </view>
+  </navigator>
+</view>
+
+<view class="weui-cells">
+    <navigator class="placeholder">
+    <view class="weui-cell">
+      <view class="weui-cell__hd">
+        <view class="weui-label">设置</view>
+      </view>
+    </view>
+  </navigator>
+</view>

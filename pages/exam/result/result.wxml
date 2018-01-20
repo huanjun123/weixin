@@ -1,0 +1,56 @@
+<view class="page">
+  <view class="page__hd">
+    <view class="page__title">成绩表</view>
+    <view class="page__desc">小学一年级上</view>
+  </view>
+  <view class="page__bd">
+    <view class="weui-form-preview">
+      <view class="weui-form-preview__hd">
+        <view class="weui-form-preview__item">
+          <view class="weui-form-preview__label">总分</view>
+          <view class="weui-form-preview__value_in-hd">99.00</view>
+        </view>
+      </view>
+      <view class="weui-form-preview__bd">
+        <view class="weui-form-preview__item">
+          <view class="weui-form-preview__label">用时</view>
+          <view class="weui-form-preview__value">30：00</view>
+        </view>
+        <view class="weui-form-preview__item">
+          <view class="weui-form-preview__label">错误</view>
+          <view class="weui-form-preview__value">2题</view>
+        </view>
+        <view class="weui-form-preview__item">
+          <view class="weui-form-preview__label">排名</view>
+          <view class="weui-form-preview__value">8</view>
+        </view>
+      </view>
+      
+      <view class="page__bd page__bd_spacing result-list">
+        <view class="weui-flex">
+            <view class="weui-flex__item"><navigator class="placeholder">1</navigator></view>
+            <view class="weui-flex__item error"><navigator class="placeholder">2</navigator></view>
+            <view class="weui-flex__item"><navigator class="placeholder">3</navigator></view>
+            <view class="weui-flex__item error"><navigator class="placeholder">4</navigator></view>
+            <view class="weui-flex__item"><navigator class="placeholder">5</navigator></view>
+            <view class="weui-flex__item"><navigator class="placeholder">6</navigator></view>
+        </view>
+        <view class="weui-flex">
+            <view class="weui-flex__item"><navigator class="placeholder">7</navigator></view>
+            <view class="weui-flex__item"><navigator class="placeholder">8</navigator></view>
+            <view class="weui-flex__item error"><navigator class="placeholder">9</navigator></view>
+            <view class="weui-flex__item"><navigator class="placeholder">10</navigator></view>
+            <view class="weui-flex__item"><navigator class="placeholder">11</navigator></view>
+            <view class="weui-flex__item"><navigator class="placeholder">12</navigator></view>
+        </view>
+    </view>
+      
+      
+      
+      <view class="weui-form-preview__ft">
+        <navigator url="" class="weui-form-preview__btn weui-form-preview__btn_primary" hover-class="weui-form-preview__btn_active"bindtap="answer">操作</navigator>
+      </view>
+    </view>
+
+  </view>
+</view>

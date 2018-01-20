@@ -1,0 +1,19 @@
+/* pages/exam/result/result.wxss */
+.result-list{
+  text-align: center;
+}
+.result-list .weui-flex{
+  margin-top: 73rpx;
+  padding-left: 50rpx;
+}
+.result-list navigator{
+  background-color: #0fb707;
+  width: 60rpx;
+  height: 60rpx;
+  border-radius: 50%;
+  color: white;
+  line-height: 60rpx;
+}
+.result-list .error navigator{
+  background-color: red;
+}
